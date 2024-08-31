@@ -1,0 +1,614 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		029F9AB82AFC9704008F5ACF /* Lex_s_countdownApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029F9AB72AFC9704008F5ACF /* Lex_s_countdownApp.swift */; };
+		029F9ABA2AFC9704008F5ACF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029F9AB92AFC9704008F5ACF /* ContentView.swift */; };
+		029F9ABC2AFC9706008F5ACF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 029F9ABB2AFC9706008F5ACF /* Assets.xcassets */; };
+		029F9AC02AFC9706008F5ACF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 029F9ABF2AFC9706008F5ACF /* Preview Assets.xcassets */; };
+		029F9ACA2AFC9706008F5ACF /* Lex_s_countdownTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029F9AC92AFC9706008F5ACF /* Lex_s_countdownTests.swift */; };
+		029F9AD42AFC9706008F5ACF /* Lex_s_countdownUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029F9AD32AFC9706008F5ACF /* Lex_s_countdownUITests.swift */; };
+		029F9AD62AFC9706008F5ACF /* Lex_s_countdownUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029F9AD52AFC9706008F5ACF /* Lex_s_countdownUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		029F9AC62AFC9706008F5ACF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 029F9AAC2AFC9704008F5ACF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 029F9AB32AFC9704008F5ACF;
+			remoteInfo = "Lex's countdown";
+		};
+		029F9AD02AFC9706008F5ACF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 029F9AAC2AFC9704008F5ACF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 029F9AB32AFC9704008F5ACF;
+			remoteInfo = "Lex's countdown";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		029F9AB42AFC9704008F5ACF /* Lex's countdown.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lex's countdown.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		029F9AB72AFC9704008F5ACF /* Lex_s_countdownApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lex_s_countdownApp.swift; sourceTree = "<group>"; };
+		029F9AB92AFC9704008F5ACF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		029F9ABB2AFC9706008F5ACF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		029F9ABD2AFC9706008F5ACF /* Lex_s_countdown.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Lex_s_countdown.entitlements; sourceTree = "<group>"; };
+		029F9ABF2AFC9706008F5ACF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		029F9AC52AFC9706008F5ACF /* Lex's countdownTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lex's countdownTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		029F9AC92AFC9706008F5ACF /* Lex_s_countdownTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lex_s_countdownTests.swift; sourceTree = "<group>"; };
+		029F9ACF2AFC9706008F5ACF /* Lex's countdownUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lex's countdownUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		029F9AD32AFC9706008F5ACF /* Lex_s_countdownUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lex_s_countdownUITests.swift; sourceTree = "<group>"; };
+		029F9AD52AFC9706008F5ACF /* Lex_s_countdownUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lex_s_countdownUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		029F9AB12AFC9704008F5ACF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		029F9AC22AFC9706008F5ACF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		029F9ACC2AFC9706008F5ACF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		029F9AAB2AFC9704008F5ACF = {
+			isa = PBXGroup;
+			children = (
+				029F9AB62AFC9704008F5ACF /* Lex's countdown */,
+				029F9AC82AFC9706008F5ACF /* Lex's countdownTests */,
+				029F9AD22AFC9706008F5ACF /* Lex's countdownUITests */,
+				029F9AB52AFC9704008F5ACF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		029F9AB52AFC9704008F5ACF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				029F9AB42AFC9704008F5ACF /* Lex's countdown.app */,
+				029F9AC52AFC9706008F5ACF /* Lex's countdownTests.xctest */,
+				029F9ACF2AFC9706008F5ACF /* Lex's countdownUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		029F9AB62AFC9704008F5ACF /* Lex's countdown */ = {
+			isa = PBXGroup;
+			children = (
+				029F9AB72AFC9704008F5ACF /* Lex_s_countdownApp.swift */,
+				029F9AB92AFC9704008F5ACF /* ContentView.swift */,
+				029F9ABB2AFC9706008F5ACF /* Assets.xcassets */,
+				029F9ABD2AFC9706008F5ACF /* Lex_s_countdown.entitlements */,
+				029F9ABE2AFC9706008F5ACF /* Preview Content */,
+			);
+			path = "Lex's countdown";
+			sourceTree = "<group>";
+		};
+		029F9ABE2AFC9706008F5ACF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				029F9ABF2AFC9706008F5ACF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		029F9AC82AFC9706008F5ACF /* Lex's countdownTests */ = {
+			isa = PBXGroup;
+			children = (
+				029F9AC92AFC9706008F5ACF /* Lex_s_countdownTests.swift */,
+			);
+			path = "Lex's countdownTests";
+			sourceTree = "<group>";
+		};
+		029F9AD22AFC9706008F5ACF /* Lex's countdownUITests */ = {
+			isa = PBXGroup;
+			children = (
+				029F9AD32AFC9706008F5ACF /* Lex_s_countdownUITests.swift */,
+				029F9AD52AFC9706008F5ACF /* Lex_s_countdownUITestsLaunchTests.swift */,
+			);
+			path = "Lex's countdownUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		029F9AB32AFC9704008F5ACF /* Lex's countdown */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 029F9AD92AFC9706008F5ACF /* Build configuration list for PBXNativeTarget "Lex's countdown" */;
+			buildPhases = (
+				029F9AB02AFC9704008F5ACF /* Sources */,
+				029F9AB12AFC9704008F5ACF /* Frameworks */,
+				029F9AB22AFC9704008F5ACF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lex's countdown";
+			productName = "Lex's countdown";
+			productReference = 029F9AB42AFC9704008F5ACF /* Lex's countdown.app */;
+			productType = "com.apple.product-type.application";
+		};
+		029F9AC42AFC9706008F5ACF /* Lex's countdownTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 029F9ADC2AFC9706008F5ACF /* Build configuration list for PBXNativeTarget "Lex's countdownTests" */;
+			buildPhases = (
+				029F9AC12AFC9706008F5ACF /* Sources */,
+				029F9AC22AFC9706008F5ACF /* Frameworks */,
+				029F9AC32AFC9706008F5ACF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				029F9AC72AFC9706008F5ACF /* PBXTargetDependency */,
+			);
+			name = "Lex's countdownTests";
+			productName = "Lex's countdownTests";
+			productReference = 029F9AC52AFC9706008F5ACF /* Lex's countdownTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		029F9ACE2AFC9706008F5ACF /* Lex's countdownUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 029F9ADF2AFC9706008F5ACF /* Build configuration list for PBXNativeTarget "Lex's countdownUITests" */;
+			buildPhases = (
+				029F9ACB2AFC9706008F5ACF /* Sources */,
+				029F9ACC2AFC9706008F5ACF /* Frameworks */,
+				029F9ACD2AFC9706008F5ACF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				029F9AD12AFC9706008F5ACF /* PBXTargetDependency */,
+			);
+			name = "Lex's countdownUITests";
+			productName = "Lex's countdownUITests";
+			productReference = 029F9ACF2AFC9706008F5ACF /* Lex's countdownUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		029F9AAC2AFC9704008F5ACF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					029F9AB32AFC9704008F5ACF = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					029F9AC42AFC9706008F5ACF = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 029F9AB32AFC9704008F5ACF;
+					};
+					029F9ACE2AFC9706008F5ACF = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 029F9AB32AFC9704008F5ACF;
+					};
+				};
+			};
+			buildConfigurationList = 029F9AAF2AFC9704008F5ACF /* Build configuration list for PBXProject "Lex's countdown" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 029F9AAB2AFC9704008F5ACF;
+			productRefGroup = 029F9AB52AFC9704008F5ACF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				029F9AB32AFC9704008F5ACF /* Lex's countdown */,
+				029F9AC42AFC9706008F5ACF /* Lex's countdownTests */,
+				029F9ACE2AFC9706008F5ACF /* Lex's countdownUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		029F9AB22AFC9704008F5ACF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				029F9AC02AFC9706008F5ACF /* Preview Assets.xcassets in Resources */,
+				029F9ABC2AFC9706008F5ACF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		029F9AC32AFC9706008F5ACF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		029F9ACD2AFC9706008F5ACF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		029F9AB02AFC9704008F5ACF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				029F9ABA2AFC9704008F5ACF /* ContentView.swift in Sources */,
+				029F9AB82AFC9704008F5ACF /* Lex_s_countdownApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		029F9AC12AFC9706008F5ACF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				029F9ACA2AFC9706008F5ACF /* Lex_s_countdownTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		029F9ACB2AFC9706008F5ACF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				029F9AD62AFC9706008F5ACF /* Lex_s_countdownUITestsLaunchTests.swift in Sources */,
+				029F9AD42AFC9706008F5ACF /* Lex_s_countdownUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		029F9AC72AFC9706008F5ACF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 029F9AB32AFC9704008F5ACF /* Lex's countdown */;
+			targetProxy = 029F9AC62AFC9706008F5ACF /* PBXContainerItemProxy */;
+		};
+		029F9AD12AFC9706008F5ACF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 029F9AB32AFC9704008F5ACF /* Lex's countdown */;
+			targetProxy = 029F9AD02AFC9706008F5ACF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		029F9AD72AFC9706008F5ACF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		029F9AD82AFC9706008F5ACF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		029F9ADA2AFC9706008F5ACF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Lex's countdown/Lex_s_countdown.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Lex's countdown/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "lexlei.Lex-s-countdown";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		029F9ADB2AFC9706008F5ACF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Lex's countdown/Lex_s_countdown.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Lex's countdown/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "lexlei.Lex-s-countdown";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		029F9ADD2AFC9706008F5ACF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 13.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "lexlei.Lex-s-countdownTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lex's countdown.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Lex's countdown";
+			};
+			name = Debug;
+		};
+		029F9ADE2AFC9706008F5ACF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 13.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "lexlei.Lex-s-countdownTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lex's countdown.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Lex's countdown";
+			};
+			name = Release;
+		};
+		029F9AE02AFC9706008F5ACF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 13.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "lexlei.Lex-s-countdownUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Lex's countdown";
+			};
+			name = Debug;
+		};
+		029F9AE12AFC9706008F5ACF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 13.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "lexlei.Lex-s-countdownUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Lex's countdown";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		029F9AAF2AFC9704008F5ACF /* Build configuration list for PBXProject "Lex's countdown" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				029F9AD72AFC9706008F5ACF /* Debug */,
+				029F9AD82AFC9706008F5ACF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		029F9AD92AFC9706008F5ACF /* Build configuration list for PBXNativeTarget "Lex's countdown" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				029F9ADA2AFC9706008F5ACF /* Debug */,
+				029F9ADB2AFC9706008F5ACF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		029F9ADC2AFC9706008F5ACF /* Build configuration list for PBXNativeTarget "Lex's countdownTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				029F9ADD2AFC9706008F5ACF /* Debug */,
+				029F9ADE2AFC9706008F5ACF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		029F9ADF2AFC9706008F5ACF /* Build configuration list for PBXNativeTarget "Lex's countdownUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				029F9AE02AFC9706008F5ACF /* Debug */,
+				029F9AE12AFC9706008F5ACF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 029F9AAC2AFC9704008F5ACF /* Project object */;
+}
